@@ -7,7 +7,7 @@ from src.s3_upload import upload_file, upload_directory, get_existing_buckets
 load_dotenv()
 
 # Obtenir le chemin du répertoire à partir du fichier .env
-path_dir = os.getenv("DIRECTORY")
+path_dir = os.getenv("directory")
 
 # Interface utilisateur de Streamlit
 st.title("S3 File Uploader")
